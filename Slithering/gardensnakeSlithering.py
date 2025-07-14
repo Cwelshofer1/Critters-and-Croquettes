@@ -11,3 +11,6 @@ class GardenSnake:
         self.date_added = date.today()
         self.area = "Glass Tank"
         self.slithering = True
+        
+    def __str__(self):
+        return f"{self.name} is a {self.species}"

@@ -11,4 +11,7 @@ class Cow:
         self.area = "Petting Area"
         self.walking = True
         self.shift = shift
+        
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
       
