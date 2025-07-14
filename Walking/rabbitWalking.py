@@ -11,6 +11,11 @@ class Rabbit:
         self.area = "Petting Area"
         self.walking = True
         self.shift = shift
+    
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
         
 rogerRabbit = Rabbit("Roger", "Cartoon Rabbit", "midday" )
 print(f'{rogerRabbit.name} is a {rogerRabbit.species}, and is at the zoo {rogerRabbit.shift}')
+
+print(rogerRabbit)
