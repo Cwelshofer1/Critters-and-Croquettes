@@ -17,3 +17,8 @@ class Donkey:
         return f"{self.name} is a {self.species}"
     def feed(self):
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+        
+donkeyDark = Donkey("DonkeyDark", "dark donkey", "midnight", "Feed"  )
+print(f'{donkeyDark.name} is a {donkeyDark.species}, and is at the zoo {donkeyDark.shift}')
+
+print(donkeyDark)

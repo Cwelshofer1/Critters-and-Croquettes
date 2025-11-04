@@ -18,4 +18,9 @@ class Cow:
     
     def feed(self):
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+        
+cowfriend = Cow("cowfriend", " friendly cow", "noon", "grass"  )
+print(f'{cowfriend.name} is a {cowfriend.species}, and is at the zoo {cowfriend.shift}')
+
+print(cowfriend)
       
